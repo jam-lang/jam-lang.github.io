@@ -1,0 +1,43 @@
+body {
+    font-size: large;
+}
+input {
+    font-size: large;
+}
+#in, textarea {
+    font-family: "Source Code Pro", monospace;
+    font-size: large;
+    font-weight: 600;
+    width: 80%;
+}
+.io label {
+    display: block;
+    font-size: larger;
+    font-weight: bold;
+}
+#controls {
+    margin: 0.5em;
+}
+#controls td {
+    display: table-cell;
+    padding: 0.25em;
+}
+table input, table select {
+    display:block;
+    width: 100%;
+}
+#in {
+    border: 1px solid #888;
+    height: 15em;
+}
+#out {
+    height:4em;
+}
+#footer {
+    font-size: small;
+    text-align: center;
+    margin-top: 1em;
+}
+#transformation, #transform, #type_variant {
+    display: none;
+}
