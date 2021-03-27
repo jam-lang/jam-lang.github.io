@@ -44,10 +44,10 @@ var JamHighlightRules = function() {
         "let|letrec|in|map|to|if|then|else|ref"
     );
 
-    var builtinConstants = ("true|false|null");
+    var builtinConstants = ("true|false|empty");
 
     var builtinFunctions = (
-        "number?|function?|list?|null?|cons?|cons|first|rest|arity"
+        "number?|function?|list?|empty?|cons?|cons|first|rest|arity"
     );
 
     var keywordMapper = this.createKeywordMapper({
