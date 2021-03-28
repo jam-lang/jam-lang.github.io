@@ -41,7 +41,7 @@ var TextHighlightRules = require("ace/mode/text_highlight_rules").TextHighlightR
 var JamHighlightRules = function() {
 
     var keywords = (
-        "let|letrec|in|map|to|if|then|else|ref"
+        "let|letcc|letrec|in|map|to|if|then|else|ref"
     );
 
     var builtinConstants = ("true|false|empty");
